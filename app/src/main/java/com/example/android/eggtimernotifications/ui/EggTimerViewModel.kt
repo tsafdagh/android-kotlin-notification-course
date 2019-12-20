@@ -135,7 +135,7 @@ class EggTimerViewModel(private val app: Application) : AndroidViewModel(app) {
                 notificationManager.cancelNotifications()
 
                 // TODO: Step 1.15 call cancel notification
-                notificationManager.sendNotification(app.getString(R.string.timer_running), app)
+                //notificationManager.sendNotification(app.getString(R.string.timer_running), app)
 
                 AlarmManagerCompat.setExactAndAllowWhileIdle(
                     alarmManager,
